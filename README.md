@@ -9,11 +9,11 @@ until the CPU and GPU cool to a target, then gives control back.
 
 ## Install
 
-From a clone of this repo:
-
 ```sh
-cargo install --path . --locked
+cargo install air-conditioning --locked
 ```
+
+Or from a clone of this repo, `cargo install --path . --locked`.
 
 Needs macOS and Rust 1.89+. Changing fan speeds requires root, so the tool re-runs itself
 under `sudo` and asks for your password when it needs it.
